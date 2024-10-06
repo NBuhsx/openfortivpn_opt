@@ -8,7 +8,7 @@ def main():
         config = json.load(file)
 
     code = pyotp.parse_uri(config["opt"])
-    print("OTP: {code}")
+    print(f"OTP: {code}")
     subprocess.run(
         [
             "sudo",

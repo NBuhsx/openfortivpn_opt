@@ -1,4 +1,4 @@
-# openfortivpn password + opt
+# openfortivpn password + otp
 
 ## Install 
 * 
